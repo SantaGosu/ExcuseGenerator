@@ -10,6 +10,7 @@ window.onload = function() {
   array();
   console.log("Hello Rigo from the console!");
 };
+
 let who = ["The dog", "My grandma", "His turtle", "My bird"];
 let action = ["ate", "peed", "crushed", "broke"];
 let what = ["my homework", "the keys", "the car"];
@@ -36,7 +37,3 @@ function array() {
     when[getRandomInt(4)];
   document.querySelector("#excuse").innerHTML = myArray;
 }
-
-// for (i = 0; i < array.length; i++) {
-//   console.log(array[i]);
-// }
